@@ -1,0 +1,21 @@
+{
+  "name": "ol-map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ol": "^latest"
+  },
+  "devDependencies": {
+    "vite": "^latest",
+    "gh-pages": "^latest"
+  }
+}
