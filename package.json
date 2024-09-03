@@ -1,21 +1,16 @@
 {
-  "name": "ol-map",
+  "name": "openlayers-app",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "deploy": "gh-pages -d dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "ol": "^latest"
+    "ol": "^10.1.0"
   },
   "devDependencies": {
-    "vite": "^latest",
-    "gh-pages": "^latest"
+    "gh-pages": "^6.1.1",
+    "vite": "^5.4.3"
   }
 }
